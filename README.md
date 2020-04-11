@@ -3,16 +3,6 @@
 ## Introduction
 This is the repository for the project COVID Assistant, a system that aids the elderly people who live alone on essential tasks such as grocery shopping or providing quick response on sudden health problems. The project serves originally as an idea for Australian Computer Society's Flatten The Curve Hack, April 2020.
 
-## Who are we?
-
-### Pandemic Hunters
-We are a team that consists of 5 members from different backgrounds, with the same goal aim: to be able to help the people in need during the Covid-19 Pandemic and cut down its vulnerability, hence the team name. Team members include:
-* Hoang Anh Ngo: hoang-anh.ngo@polytechnique.edu
-* Sinan Bingul: sinan.bingul@gmail.com
-* Fredy Zhang: fredy.zhang.au@gmail.com
-* Thai Nam Hoang: hoangnt@beloit.edu
-* Tuan Khoi Nguyen: tuankhoin@student.unimelb.edu.au
-
 ## Implementation
 Some intended implementation of the system, to be fit with the current situation:
 
@@ -44,3 +34,14 @@ This repository consists of a sample system that takes a command speech as input
 
 * Pre-requirement Packages: `pyttsx3 pip install pyttsx3`
 * Running Environment: Windows for the first function `phSpeak()`, Linux/Windows for the second function `pySpeak()`
+
+## Who are we?
+
+### Pandemic Hunters
+We are a team that consists of 5 members from different backgrounds, with the same goal aim: to be able to help the people in need during the Covid-19 Pandemic and cut down its vulnerability, hence the team name. Team members include:
+* Hoang Anh Ngo: hoang-anh.ngo@polytechnique.edu
+* Sinan Bingul: sinan.bingul@gmail.com
+* Fredy Zhang: fredy.zhang.au@gmail.com
+* Thai Nam Hoang: hoangnt@beloit.edu
+* Tuan Khoi Nguyen: tuankhoin@student.unimelb.edu.au
+
