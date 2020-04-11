@@ -14,25 +14,27 @@ We are a team that consists of 5 members from different backgrounds, with the sa
 * Tuan Khoi Nguyen: tuankhoin@student.unimelb.edu.au
 
 ## Implementation
-(Updating)
-1-) Suggestions by taking sensory inputs such as fever, heartbeat and cough sounds
-Cough sounds/shortness of breath can be recognised through machine learning
-Fever can be measured by an infrared camera on the device or a camera in the house
-The red light on the device to measure heartbeat
-Respiratory vibration frequency
-Assumptions
-An elderly person will have a voice assistant in their house
-It is possible to improve the voice assistants in this manner
+Some intended implementation of the system, to be fit with the current situation:
 
-2-) Provides prediction and reporting about markets and park activity
-Information will be collected by Google Maps
-It will provide information about 
+### Sensory inputs
 
-3-) Incorporating local shops with voice assistant
-Helping local shops implement necessary IT infrastructure to take orders through voice assistants
-Order can be delivered through different delivery services such as uber eats etc. Or shops can have their own delivery systems
+The system will take the sensory inputs of the resident to track their health condition, such as:
+* Detect and distinguish coughing sound and shortness of breath, which can be reconised through machine learning.
+* Measure body temperature using infrared camera.
+* Retrieve heartbeat rate through red light sensors.
+* Track respiratory vibration frequency.
+
+### Location activity
+
+Provides prediction and report about location activity such as markets and parks. The information will be collected by Google Maps.
+It will provide information about if the resident is travelling into a hotspot, or their travelling habit.
+
+### Local connection
+
+Connects the assistant with the stores in the local area. The idea involves helping local shops to implement the necessary IT infrastructure to take orders through voice assistants. The order can be delivered through different delivery services such as UberEats, Deliveroo, etc. or the store's delivery systems. This can help reducing the amount of crowded orders in big supermarkets and reallocate them to the local area.
  
-4-) Including different parameters for predictions relevant to COVID-19 such as domestic and international travel information
+### Further ideas
+Include different parameters for predictions relevant to COVID-19 such as domestic and international travel information.
 
 ## Specifications
 
