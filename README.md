@@ -7,7 +7,7 @@ This is the repository for the project COVID Assistant, a system that aids the e
 
 ### Pandemic Hunters
 We are a team that consists of 5 members from different backgrounds, with the same goal aim: to be able to help the people in need during the Covid-19 Pandemic and cut down its vulnerability, hence the team name. Team members include:
-* Hoang Anh Ngo: hoanganhngo610@gmail.com
+* Hoang Anh Ngo: hoang-anh.ngo@polytechnique.edu
 * Sinan Bingul: sinan.bingul@gmail.com
 * Fredy Zhang: fredy.zhang.au@gmail.com
 * Thai Nam Hoang: hoangnt@beloit.edu
