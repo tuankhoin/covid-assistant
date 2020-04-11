@@ -40,7 +40,8 @@ def assistant(command):
         now = datetime.datetime.now()
         sofiaResponse('Current time is %d hours %d minutes' % (now.hour, now.minute))
 
-# sofiaResponse('Hi User, I am your personal voice assistant. What can i do for you?')
-# #loop to continue executing multiple commands
-# while True:
-#     assistant(myCommand())
+if __name__ == "__main__":
+    sofiaResponse('Hi User, I am your personal voice assistant. What can i do for you?')
+    #loop to continue executing multiple commands
+    while True:
+        assistant(myCommand())
