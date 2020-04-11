@@ -40,10 +40,10 @@ This repository consists of a sample system that takes a command speech as input
 ### Sample dialogues
 
 ```
-Input: Ah-choo      # Heavy cough sound detected
+Input: Ah-choo                             # Heavy cough sound detected
 Assistant: Hi James, would you like to measure your fever?
 
-Input.fever() > heat.THRESHOLD == True
+Input.fever() > heat.THRESHOLD == True     # High temperature detected
 Assistant: Your fever is 37 degrees and you have recently been overseas, would you like to go to the Prince of Wales hospital?
 
 Input: How crowded is hyde park?
