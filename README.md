@@ -11,15 +11,15 @@ Some intended implementation of the system, to be fit with the current situation
 ### Sensory inputs
 
 The system will take the sensory inputs of the resident to track their health condition, such as:
-* Detect and distinguish coughing sound and shortness of breath, which can be reconised through machine learning.
+* Detect and distinguish coughing sound and shortness of breath, which can be recognized through machine learning.
 * Measure body temperature using infrared camera.
 * Retrieve heartbeat rate through red light sensors.
 * Track respiratory vibration frequency.
 
 ### Location activity
 
-Provides prediction and report about location activity such as markets and parks. The information will be collected by Google Maps.
-It will provide information about if the resident is travelling into a hotspot, or their travelling habit. This is to aid when the resident needs to go out for essential reasons like shopping or excercise.
+Provides prediction and report activity at locations such as markets and parks. The information will be collected via Google Maps.
+Provides information if the resident is travelling into a hotspot, or warn due to their travelling habit. This is to aid when the resident needs to go out for essential scenarios like shopping or excercise.
 
 ### Local connection
 
@@ -40,17 +40,17 @@ This repository consists of a sample system that takes a command speech as input
 ### Sample dialogues
 
 ```
-Input: Ah-choo                             # Heavy cough sound detected
+Input: Ah-choo                             # Heavy sneeze sound detected
 Assistant: Hi James, would you like to measure your fever?
 
 Input.fever() > heat.THRESHOLD == True     # High temperature detected
-Assistant: Your fever is 37 degrees and you have recently been overseas, would you like to go to the Prince of Wales hospital?
+Assistant: Your fever is 37 degrees and you have recently been overseas, would you like to go to the Prince of Wales Hospital?
 
-Input: How crowded is hyde park?
-Assistant: The crowd level is medium
+Input: How crowded is Hyde Park?
+Assistant: The crowd level is medium.
 
-Input: Hi Google, order meat pie
-Assistant: Ordering meat pie from Jack’s meat pies
+Input: Hi Google, order meat pie.
+Assistant: Ordering meat pie from Jack’s meat pies.
 ```
 
 ## Who are we?
