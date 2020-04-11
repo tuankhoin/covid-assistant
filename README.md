@@ -37,3 +37,8 @@ Order can be delivered through different delivery services such as uber eats etc
 ## Specifications
 
 This repository consists of a sample system that takes a command speech as input and execute tasks based on the speech content.
+
+### Text to Speech Function: 
+
+* Pre-requirement Packages: `pyttsx3 pip install pyttsx3`
+* Running Environment: Windows for the first function `phSpeak()`, Linux/Windows for the second function `pySpeak()`
