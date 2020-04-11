@@ -2,7 +2,7 @@
 # @Author: fredy
 # @Date:   2020-04-10 19:41:52
 # @Last Modified by:   fredy
-# @Last Modified time: 2020-04-11 14:22:34
+# @Last Modified time: 2020-04-11 15:53:33
 
 def phSpeak(text):
     import win32com.client
@@ -21,11 +21,11 @@ def pySpeak(text):
     #     print(" - Gender: %s" % voice.gender)
     #     print(" - Age: %s" % voice.age)
     #     print("\n")
-    #engine.setProperty('rate', 150)
+    engine.setProperty('rate', 130)
     #engine.setProperty('gender','female')
     engine.setProperty("voice", voices[0].id)
     # say method on the engine that passing input text to be spoken
-    engine.say('Hello sir, how may I help you, sir.')
+    # engine.say('Hello sir, how may I help you, sir.')
     engine.say(text)
     # run and wait method, it processes the voice commands.
     engine.runAndWait()
