@@ -2,7 +2,7 @@
 # @Author: fredy
 # @Date:   2020-04-10 19:41:52
 # @Last Modified by:   fredy
-# @Last Modified time: 2020-04-11 15:53:33
+# @Last Modified time: 2020-04-11 17:17:08
 
 def phSpeak(text):
     import win32com.client
@@ -36,4 +36,4 @@ if __name__ == "__main__":
     for i in range(10):
         if "crowd" in ask:
             #phSpeak(response)
-            pySpeak(response)
+            phSpeak(response)
