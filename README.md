@@ -49,7 +49,7 @@ Assistant: Your fever is 37 degrees and you have recently been overseas, would y
 Input: How crowded is Hyde Park?
 Assistant: The crowd level is medium.
 
-Input: Hi Google, order meat pie.
+Input: Order meat pie.
 Assistant: Ordering meat pie from Jack’s meat pies.
 ```
 
